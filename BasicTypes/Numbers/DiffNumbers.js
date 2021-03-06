@@ -13,24 +13,6 @@ console.log(0.1 + 0.2 == 0.3); //false because of floating point, weird stuff
 console.log(0.1 + 0.2)
 
 console.log()
-console.log("Boolean")
-console.log(1 == 1)
-console.log(1 == 2)
-console.log( 1 <= 2)
-
-console.log('' == 0) //abstract equality
-console.log('' === 0) //checks type
-console.log()
-console.log("Boolean operators")
-console.log(1 == 1 && 2 == 2) //both need to be true
-console.log(1 == 1 && 2 == 1) //one false
-console.log(1 == 1 || 2 == 5) //only one needs to be true
-console.log(2 == 40 || 1 == 1) //only one needs to be true
-
-//ideal syntax - grouping comparisons for readibility
-console.log((2 == 40) || (1 == 1))
-
-console.log()
 console.log("Strings")
 //"I am a string" //double quote
 //'I am a string' //single quote
