@@ -12,35 +12,6 @@ console.log( "Floating point weirdness")
 console.log(0.1 + 0.2 == 0.3); //false because of floating point, weird stuff
 console.log(0.1 + 0.2)
 
-console.log()
-console.log("Strings")
-//"I am a string" //double quote
-//'I am a string' //single quote
-
-let myName = 'Dear Daniel'; //can embed into backtick quotes
-console.log("Hello ${myName}") //doesn't work
-console.log(`Hello ${myName}`) //works
-
-console.log(`I am a
-
-multiline
-
-Hello, ${myName}
-
-backtick quote/template literal`) //backtick quotes - multiline 
-
-console.log(`2 + 3 = ${2 + 3}`) 
-//don't do this just because you can
-console.log(`2 + 3 = ${myName + ` lol ${myName}`}`)
-
-console.log("this " + "is" + " concatenated")
-//can just use , to not write spaces in
-console.log("this", "is", "multiple arguments")
-
-let b_thing = "this " + "is" + " concatenated"
-//doesn't work since not in a function
-//let a_thing = "this", "is", "multiple arguments"
-
 let nothing //not assigned variable
 console.log()
 console.log("Undefined vs Null")
