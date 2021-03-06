@@ -12,13 +12,6 @@ console.log( "Floating point weirdness")
 console.log(0.1 + 0.2 == 0.3); //false because of floating point, weird stuff
 console.log(0.1 + 0.2)
 
-let nothing //not assigned variable
-console.log()
-console.log("Undefined vs Null")
-console.log(nothing)
-nothing = null //explictly written/returned
-console.log(nothing)
-
 console.log(8 * null) //outputs 0 -> changes null = 0
 console.log("5" + 1); //outputs 51 as a string, assumes concat
 console.log(1 + "5") //outputs 15
