@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: rgb(10, 10, 10);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  padding-top: 32px;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(240, 250, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: rgb(50, 48, 48);
+  border: 0;
+  color: #fff;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+img {
+  width: 100%;
+}
